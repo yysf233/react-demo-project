@@ -13,6 +13,9 @@ const App = () => {
     setIsChild2value(Child2Ref?.current?.areGetChild2Value());
     console.log('---本日：', areDataReckon('本日'));
     console.log(add(1, 2));
+     useEffect(() => {
+    document.title = '名字';
+  }, [])
   }, [])
 
   return (
