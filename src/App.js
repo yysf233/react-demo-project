@@ -14,7 +14,7 @@ const App = () => {
     console.log('---本日：', areDataReckon('本日'));
     console.log(add(1, 2));
      useEffect(() => {
-    document.title = '名字';
+    document.title = 'ShowMeLove';
   }, [])
   }, [])
 
